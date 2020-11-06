@@ -72,6 +72,22 @@ body {
   -o-border-radius: 50%;
   background-color: red;
   margin-left: 10px;
+  animation: efecto 1s infinite;
+  -webkit-animation: efecto 1s infinite;
+}
+
+@keyframes efecto {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .audio {
